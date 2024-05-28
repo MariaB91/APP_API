@@ -12,16 +12,16 @@
 ## Instructions pour Exécuter le Projet
 
 1. **Installer les dépendances** :
-    ```pip install -r requirements.txt
-    ```
+    ```pip install -r requirements.txt  ```
+   
 
 2. **Télécharger le fichier CSV** :
-    ```curl wget https://dst-de.s3.eu-west-3.amazonaws.com/fastapi_fr/questions.csv
-    ```
+    ```curl wget https://dst-de.s3.eu-west-3.amazonaws.com/fastapi_fr/questions.csv  ```
+   
 
 3. **Lancer l'application FastAPI** :
-    ```sh   uvicorn main:app --reload
-    ```
+    ```sh   uvicorn main:app --reload ```
+    
 
 4. **Tester les endpoints** :
     - Utiliser les requêtes définies dans le fichier `test_requests.http` avec  [Postman](https://www.postman.com/)  on peut aussi tester via la plateforme HTTPs
